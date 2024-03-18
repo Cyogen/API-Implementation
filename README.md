@@ -79,6 +79,11 @@ This guide assumes you have Python installed on your system. You can install the
 6. Start an HTTP server by issuing the following command in the root directory of the project:
     `python -m http.server`
 
+## Summary
+
+You may `git clone https://github.com/Cyogen/API-Implementation.git` this project and just run the HTTP simple server, then launch the server.js endpoint.
+Note that Node.js, Python and Express.js all have to be installed, and initialized as explained previously.
+
 ## Screenshots
 
 Node.js initialization:
