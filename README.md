@@ -54,10 +54,12 @@ This guide assumes you have Python installed on your system. You can install the
     Imports:
       - The 'express' module is imported to create the server.
       - The 'fs' module is imported to read files.
+
     Initialize:
       - Create an instance of the Express application.
       - Set a 'quotesFilePath' variable to the path of the simple text file used to test the API.
           This is set to 'private/quotes.txt'.
+
     Route definition:
       - A Get route is definedd for the path '/random-quote'.
       - When the request is made the server will execute the callback function:
