@@ -76,6 +76,8 @@ This guide assumes you have Python installed on your system. You can install the
 3. `<head>`: Main section of the basic site.  Contains basic information like character encoding, viewport settings, and title of the page.
 4. `<script src="js/script.js" defer></script>`: This script tag links an external JavaScript file (script.js) to the HTML document. The defer attribute indicates that the script should be executed after the HTML document has been parsed.
 5. `<body>`: Section contains the visible contents.  There is an button element, when clicked, will initiate defined in the linked Javascript file.
+6. Start an HTTP server by issuing the following command in the root directory of the project:
+    `python -m http.server`
 
 ## Screenshots
 
