@@ -63,12 +63,12 @@ This guide assumes you have Python installed on your system. You can install the
           This is set to 'private/quotes.txt'.
 
     Route definition:
-      - A Get route is definedd for the path '/random-quote'.
+      - A Get route is defined for the path '/random-quote'.
       - When the request is made the server will execute the callback function:
           *  'fs.readFile()' used to read the contents of the quotes text file.
           *  Errors result in a log to the console and sends a 500 Internal error response.
           *  Successful functions splits the data (the quotes are separated by new line character),
-              selects a random quote for the array, and sends it as the response.)
+              selects a random quote for the array, and sends it as the response.
 
     Server configuration:
       - Server listens on port 3000.
