@@ -74,11 +74,22 @@ To develop a simple website with API implemntation.  The aim of this was simply 
 
 ## Screenshots
 
+Node.js initialization:
 ![nodeinit](https://github.com/Cyogen/API-Implementation/assets/33054558/6ee1d003-474e-4878-9801-c98a03b2129b)
+
+NPM Express installation:
 ![nodeinstallexpress](https://github.com/Cyogen/API-Implementation/assets/33054558/8f7f0740-b51b-443d-b05a-788f4321137c)
+
+Start the Js server:
 ![serverjsstart](https://github.com/Cyogen/API-Implementation/assets/33054558/1846073e-c462-4529-b14f-aa99f1a8a077)
+
+Python basic HTTP server:
 ![pythonhttpserver](https://github.com/Cyogen/API-Implementation/assets/33054558/f4395d4d-cbfd-41d4-a5db-af586c0a4d46)
+
+Basic website with interactive button to execute the script and return data:
 ![websitescreenshot](https://github.com/Cyogen/API-Implementation/assets/33054558/1266639f-00d3-4cef-86d0-d1d4a985818f)
+
+API proof of concept using CURL and able to grab the same data using the same JS function:
 ![nodeendpointcurl](https://github.com/Cyogen/API-Implementation/assets/33054558/bbe684d7-beb4-42b5-8aae-f18fae2843a7)
 
 
