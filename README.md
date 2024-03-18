@@ -22,8 +22,10 @@ To develop a simple website with API implemntation.  The aim of this was simply 
 
 ## Steps
 
+# Javascript/Node
+
 1.  Install Node.js.
-  - Download and install Node.js from the official website: https://nodejs.org/
+  - Download and install Node.js from the official website: https://nodejs.org/.
 
 2.  Create project directory:
   - Create a new directory for the project:
@@ -41,3 +43,42 @@ To develop a simple website with API implemntation.  The aim of this was simply 
     ```
     npm install express
     ```
+5. Create server, server.js:
+  - Write the server-side code using Express.js to create a server and ahndle HTTP requests.
+      
+    Imports:
+      - The 'express' module is imported to create the server.
+      - The 'fs' module is imported to read files.
+    Initialize:
+      - Create an instance of the Express application.
+      - Set a 'quotesFilePath' variable to the path of the simple text file used to test the API.
+          This is set to 'private/quotes.txt'.
+    Route definition:
+      - A Get route is definedd for the path '/random-quote'.
+      - When the request is made the server will execute the callback function:
+          *  'fs.readFile()' used to read the contents of the quotes text file.
+          *  Errors result in a log to the console and sends a 500 Internal error response.
+          *  Successful functions splits the data (the quotes are separated by new line character),
+              selects a random quote for the array, and sends it as the response.
+    Server configuration:
+      - Server listens on port 3000.
+      - At start server logs URL and port to the console.
+   
+# HTML basic website/Server
+
+1. '<!DOCTYPE html>': Specifies the document type.
+2. '<html /lang="en">': Specifies the content on this page is in English.
+3. '<head>': Main section of the basic site.  Contains basic information like character encoding, viewport settings, and title of the page.
+4. '<script /src="js/script.js" defer></script>: This script tag links an external JavaScript file (script.js) to the HTML document. The defer attribute indicates that the script should be executed after the HTML document has been parsed.
+5. '<body>': Section contains the visible contents.  There is an button element, when clicked, will initiate defined in the linked Javascript file.
+
+## Screenshots
+
+![nodeinit](https://github.com/Cyogen/API-Implementation/assets/33054558/6ee1d003-474e-4878-9801-c98a03b2129b)
+![nodeinstallexpress](https://github.com/Cyogen/API-Implementation/assets/33054558/8f7f0740-b51b-443d-b05a-788f4321137c)
+![serverjsstart](https://github.com/Cyogen/API-Implementation/assets/33054558/1846073e-c462-4529-b14f-aa99f1a8a077)
+![pythonhttpserver](https://github.com/Cyogen/API-Implementation/assets/33054558/f4395d4d-cbfd-41d4-a5db-af586c0a4d46)
+![websitescreenshot](https://github.com/Cyogen/API-Implementation/assets/33054558/1266639f-00d3-4cef-86d0-d1d4a985818f)
+![nodeendpointcurl](https://github.com/Cyogen/API-Implementation/assets/33054558/bbe684d7-beb4-42b5-8aae-f18fae2843a7)
+
+
