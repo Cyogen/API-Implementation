@@ -49,7 +49,7 @@ This guide assumes you have Python installed on your system. You can install the
     npm install express
     ```
 5. Create server, server.js:
-  - Write the server-side code using Express.js to create a server and ahndle HTTP requests.
+  - Write the server-side code using Express.js to create a server and handle HTTP requests.
       
     Imports:
       - The 'express' module is imported to create the server.
