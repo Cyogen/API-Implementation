@@ -25,6 +25,7 @@ The project was uploaded without the JS installation files.  Initialization, ins
 - Python: Simple HTTP server. (fastest/easiest solution)
 
 ## Steps
+This guide assumes you have Python installed on your system. You can install the latest version from https://www.python.org
 
 # Javascript/Node
 
