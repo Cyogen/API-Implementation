@@ -17,7 +17,7 @@ This project was to develop a simple website with API implementation.  The aim w
 - Node.js: Javascript runtime that allows JS execution outside of a web browser.
 - Express.js: Web framework for Node.js used to create the server and handle HTTP response.
 - fs:  File system module built into Node.js to interact with a file locally.
-- CLi: Initialize Node.js project, install dependencies, run the servers, execute curl for testing.
+- CLi: Command line used initialize Node.js project, install dependencies, run the servers, execute curl for testing.
 - VsCode:  IDE to write HTML/JS code.
 - Python: Simple HTTP server. (fastest/easiest solution)
 
