@@ -19,6 +19,7 @@ To develop a simple website with API implemntation.  The aim of this was simply 
 - fs:  File system module built into Node.js to interact with a file locally.
 - CLi: Initialize Node.js project, install dependencies, run the servers, execute curl for testing.
 - VsCode:  IDE to write HTML/JS code.
+- Python: Simple HTTP server. (fastest/easiest solution)
 
 ## Steps
 
