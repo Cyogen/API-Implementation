@@ -70,11 +70,11 @@ The project was uploaded without the JS installation files.  Initialization, ins
    
 # HTML basic website/Server
 
-1. '<!DOCTYPE html>': Specifies the document type.
-2. '<html lang="en">': Specifies the content on this page is in English.
-3. '<head>': Main section of the basic site.  Contains basic information like character encoding, viewport settings, and title of the page.
-4. '<script src="js/script.js" defer></script>: This script tag links an external JavaScript file (script.js) to the HTML document. The defer attribute indicates that the script should be executed after the HTML document has been parsed.
-5. '<body>': Section contains the visible contents.  There is an button element, when clicked, will initiate defined in the linked Javascript file.
+1. `<!DOCTYPE html>`: Specifies the document type.
+2. `<html lang="en">`: Specifies the content on this page is in English.
+3. `<head>`: Main section of the basic site.  Contains basic information like character encoding, viewport settings, and title of the page.
+4. `<script src="js/script.js" defer></script>`: This script tag links an external JavaScript file (script.js) to the HTML document. The defer attribute indicates that the script should be executed after the HTML document has been parsed.
+5. `<body>`: Section contains the visible contents.  There is an button element, when clicked, will initiate defined in the linked Javascript file.
 
 ## Screenshots
 
