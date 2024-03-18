@@ -38,6 +38,8 @@ This guide assumes you have Python installed on your system. You can install the
     mkdir random-quote-api
     cd random-quote-api
     ```
+  - Put all project files in this directory or create your own.
+
 3.  Initialize Node.js Project:
   - Initialize a new Node.js project by running:
     ```
