@@ -64,7 +64,7 @@ This guide assumes you have Python installed on your system. You can install the
           *  'fs.readFile()' used to read the contents of the quotes text file.
           *  Errors result in a log to the console and sends a 500 Internal error response.
           *  Successful functions splits the data (the quotes are separated by new line character),
-              selects a random quote for the array, and sends it as the response.
+              selects a random quote for the array, and sends it as the response.)
     Server configuration:
       - Server listens on port 3000.
       - At start server logs URL and port to the console.
