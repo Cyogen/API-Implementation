@@ -1,7 +1,7 @@
 # API-Implementation
 
 ## Objective
-Develop a simple website with API implementation.  
+Develop a simple website with an API implementation.  
 
 The aim was simply to learn how to add an endpoint that could be accessed publicly using API.  I will be improving to a more robust and efficient implementation in the future as I learn more. 
 
