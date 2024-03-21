@@ -51,7 +51,7 @@ This guide assumes you have Python installed on your system. You can install the
     npm install express
     ```
 5. Create server, server.js:
-  - Write the server-side code using Express.js to create a server and handle HTTP requests.
+  - Write the server-side code using Express.js to create a server and have it handle HTTP requests.
       
     Imports:
       - The 'express' module is imported to create the server.
@@ -63,7 +63,7 @@ This guide assumes you have Python installed on your system. You can install the
           This is set to 'private/quotes.txt'.
 
     Route definition:
-      - A Get route is defined for the path '/random-quote'.
+      - A GET route is defined for the path '/random-quote'.
       - When the request is made the server will execute the callback function:
           *  'fs.readFile()' used to read the contents of the quotes text file.
           *  Errors result in a log to the console and sends a 500 Internal error response.
@@ -86,7 +86,7 @@ This guide assumes you have Python installed on your system. You can install the
 
 ## Summary
 
-You may `git clone https://github.com/Cyogen/API-Implementation.git` this project and just run the HTTP simple server, then launch the server.js endpoint.
+You may `git clone https://github.com/Cyogen/API-Implementation.git` this project.  To get this to function just run the HTTP simple server, then launch the server.js endpoint.
 Note that Node.js, Python and Express.js all have to be installed, and initialized as explained previously.
 
 ## Screenshots
