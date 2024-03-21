@@ -89,6 +89,8 @@ This guide assumes you have Python installed on your system. You can install the
 You may `git clone https://github.com/Cyogen/API-Implementation.git` this project.  To get this to function just run the HTTP simple server, then launch the server.js endpoint.
 Note that Node.js, Python and Express.js all have to be installed, and initialized as explained previously.
 
+I am not proficient at programming, this project required a lot of Googling and some copied snippets of code that were slightly altered to work for this project.  The implementation is not secure or efficient. I do NOT recommend this ever be exposed to a public network.
+
 ## Screenshots
 
 Node.js initialization:
